@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="board-title">
+            <h3>HOME</h3>
+            <div class="score-card">
+                <span id="score-el">0</span>
+            </div>
+            <div class="score-btn">
+                <button class="btn" onclick="onePoint()">+1</button>
+                <button class="btn" onclick="twoPoint()">+2</button>
+                <button class="btn" onclick="threePoint()">+3</button>
+            </div>
+        </div>
+        <div class="board-title">
+            <h3>AWAY</h3>
+            <div class="score-card">
+                <span id="score-el-away">0</span>
+            </div>
+            <div class="score-btn">
+                <button class="btn" onclick="onePointAway()">+1</button>
+                <button class="btn" onclick="twoPointAway()">+2</button>
+                <button class="btn" onclick="threePointAway()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
